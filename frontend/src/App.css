@@ -1,4 +1,26 @@
-.App {
+.home{
+  padding: 64px 0 0 0;
+  min-height: 100vh;
+}
+.dashboard{
+  padding: 64px 0 0 0;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +57,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
