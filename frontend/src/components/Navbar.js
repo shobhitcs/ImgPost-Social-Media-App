@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 // import { useLogout } from "../hooks/useLogout";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 
 const Navbar = () => {
@@ -38,17 +38,17 @@ const Navbar = () => {
         fontFamily: 'Maven Pro, sans-serif',
         
     };
-    const logoutButtonStyle = {
-        color: 'black',
-        marginRight: '16px',
-        backgroundColor: '#FFFFFF',
-    };
+    // const logoutButtonStyle = {
+    //     color: 'black',
+    //     marginRight: '16px',
+    //     backgroundColor: '#FFFFFF',
+    // };
 
     return (
         <AppBar position="fixed" style={appBarStyle}>
             <Toolbar>
                 <Typography variant="h6" style={logoTextStyle}>
-                    ATTENDE
+                    IMGPost
                 </Typography>
                 <NavLink to="/" style={linkStyle}>HOME</NavLink>
                 <NavLink to="/login" style={linkStyle}>LOGIN</NavLink>
