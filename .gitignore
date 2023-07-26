@@ -1,24 +1,23 @@
 # dependencies
 frontend/node_modules
+frontend/src/authentication/config.js
 frontend/.pnp
 frontend/.pnp.js
-frontend/authentication/config.js
 backend/node_modules
 backend/.env
 backend/authentication/serviceAccountKey.json
-# testing
-/coverage
+
 
 # production
 frontend/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# .DS_Store
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
