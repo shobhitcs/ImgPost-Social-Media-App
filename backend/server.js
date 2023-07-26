@@ -6,6 +6,15 @@ const morgan=require('morgan');
 const mongoose=require('mongoose')
 const app=express()
 
+const admin = require("firebase-admin");
+
+const serviceAccount = require("./authentication/serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+
+
 mongoose.connect(process.env.MONGO_URI).then((result)=> {console.log('connected to db');
 app.listen(process.env.PORT,()=>{
     console.log("listening on port",process.env.PORT);
